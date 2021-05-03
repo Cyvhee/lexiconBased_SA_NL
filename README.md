@@ -13,7 +13,9 @@ Requirements:
 * Gold standard sentiment labels should pertain to the following: 'very_negative', 'negative', 'positive', 'very_positive', 'neutral', 'objective'
 * The system outputs a numeric sentiment score per sentence and maps this to pos/neg/neu to calculate the accuracy.
 * SA accuracy is printed in the terminal; if you want to re-calculate it using the outfile, you'll need to map the scores to -1, 0.0 and 1, as is done by the script.
-* !! The script predicts sentiment scores at the sentence level; it is up to you to decide how you aggregate for post-level predictions.
+```diff
+- !! The script predicts sentiment scores at the sentence level; it is up to you to decide how you aggregate for post-level predictions.
+```
 
 The lexicons that are used are generic, so the code can be run on several types of text genres (social media, blogs, newspaper text, reviews,...).
 There are four Dutch lexica used --> only entries with the following PoS-tags are considered: ADJ, WW, BW, N
@@ -26,8 +28,8 @@ All of them were manually revised by a job student (Annaïs Airapetian) in the s
 The lexica are searched in a specific order; i.e. if a given word is not found in lexicon 1, it is searched for in lexicon 2, etc. If a word was found in lexicon 1, then no further lookup in lexicon 2, 3 and 4 is done. This order is experimentally determined by Cynthia Van Hee; the purpose of these experiments was finding out which lexicon is the most reliable for sentiment analysis in an order from best to last.
 
 ## Script input:
-	* Path to the input file; a tab-separated file wih a gold-standard label and the text to be analyzed (1 instance = 1 line; make sure to replace newlines within a post with '[EOS]' to indicate sentence boundaries!)
-	* Path to the output folder
+* Path to the input file; a tab-separated file wih a gold-standard label and the text to be analyzed (1 instance = 1 line; make sure to replace newlines within a post with '[EOS]' to indicate sentence boundaries!)
+* Path to the output folder
 
 ## Script output:
 	* A tab-separated file with the gold label, the predicted label and the original text. Format: 1 sentence per line, instances are separated by empty lines.
