@@ -1,13 +1,3 @@
 .env
 Pipfile.lock
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/Duoman.csv
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/NRC.csv
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/penn_to_lets.pkl
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/SentimentLexiconClass.py
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/convert_to_xml.py
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/penn_to_lets.py
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/README.txt
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/Duoman.xml
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased/lexicons/NRC_Duoman_to_xml/NRC.xml
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased_SA_NL/lexicons/NRC_Duoman_to_xml/orifiles/Duoman_PoStags_CVH.xlsx
-/home/cynthia/GitHub/Sentiment_NL/lexiconBased_SA_NL/lexicons/NRC_Duoman_to_xml/orifiles/NRC-Emotion-Lexicon-v0.92-EN-NL.xlsx
+./lexiconBased/lexicons/NRC_Duoman_to_xml/
