@@ -14,7 +14,7 @@ Requirements:
 * The system outputs a numeric sentiment score per sentence and maps this to pos/neg/neu to calculate the accuracy.
 * SA accuracy is printed in the terminal; if you want to re-calculate it using the outfile, you'll need to map the scores to -1, 0.0 and 1, as is done by the script.
 ```diff
-- !! The script predicts sentiment scores at the sentence level; it is up to you to decide how you aggregate for post-level predictions.
+!! The script predicts sentiment scores at the sentence level; you decide how you aggregate for post-level predictions.
 ```
 
 The lexicons that are used are generic, so the code can be run on several types of text genres (social media, blogs, newspaper text, reviews,...).
